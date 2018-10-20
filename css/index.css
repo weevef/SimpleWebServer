@@ -1,0 +1,41 @@
+body {
+  background-color: #172A3A;
+  padding: 0;
+  margin: 0;
+}
+
+.topBar {
+  background-color: #004346;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.topBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004346;
+
+}
+
+.topBar li {
+    float: left;
+}
+
+.topBar li a {
+    display: block;
+    color: #09BC8A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.4s, color 0.4s;
+    border-radius: 15px;
+}
+
+.topBar li a:hover {
+  background-color: #175456;
+  color: #4CCEA9;
+
+}
